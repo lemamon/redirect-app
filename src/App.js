@@ -45,7 +45,7 @@ const UberHandleLogin = (props) => {
       `${URL}https://stackoverflow.com/questions/57431355/how-to-fix-431-request-header-fields-too-large-in-react-redux-app`,
       {
         // method: 'GET',
-        // redirect: 'follow',
+        redirect: 'follow',
         mode: "no-cors",
         // headers: {
         //   Authorization: bearer,
